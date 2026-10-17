@@ -33,18 +33,19 @@ To simulate a network with topology using Cisco Packet Tracer and verify connect
 
 ## 📊 IP CONNECTIVITY TABLE
 
-| SENDER/RECEIVER | PC0 | PC1 | PC2 | PC3 | PC4 | PC5 |
-|------------------|-----|-----|-----|-----|-----|-----|
-| PC0              |     |     |     |     |     |     |
-| PC1              |     |     |     |     |     |     |
-| PC2              |     |     |     |     |     |     |
-| PC3              |     |     |     |     |     |     |
-| PC4              |     |     |     |     |     |     |
-| PC5              |     |     |     |     |     |     |
+| SENDER/RECEIVER | PC0  | PC1  | PC2 | PC3 | PC4 | PC5 |
+|------------------|-----|------|-----|-----|-----|-----|
+| PC0              |     |  ✓   |     |     |     |     |
+| PC1              | ✓   |      |     |     |     |     |
+| PC2              |     |      |     |  ✓  |     |     |
+| PC3              |     |      | ✓   |     |     |     |
+| PC4              |     |      |      |     |     | ✓  |
+| PC5              |     |      |      |     | ✓   |     |
 
 ## 🗺️ NETWORK DIAGRAM
 ---
-<img width="1024" height="326" alt="image" src="https://github.com/user-attachments/assets/b1678fb3-30c2-4351-9b61-ee7b524be458" />
+<img width="1917" height="1078" alt="Screenshot 2026-10-15 184643" src="https://github.com/user-attachments/assets/4d8c90b1-13d5-4df9-9f8f-026de016b00a" />
+
 
 
 ## 🧾 BASIC NETWORKING COMMANDS
@@ -73,7 +74,8 @@ C:\> ipconfig /all
 
 ## OUTPUT
 ---
-<img width="1088" height="796" alt="image" src="https://github.com/user-attachments/assets/39cc071d-feae-4f5e-b8a6-f2b7a155daf0" />
+<img width="872" height="886" alt="Screenshot 2026-10-15 184725" src="https://github.com/user-attachments/assets/f2c513fd-c87f-42c5-8bfe-9b33d31ff7a0" />
+
 
 ## RESULT
 Thus the computers in same network are able to communicate with each other and the communication between them were verified
